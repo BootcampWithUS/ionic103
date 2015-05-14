@@ -1,4 +1,12 @@
 {
   "name": "chapter5",
-  "app_id": "27fa0870"
+  "app_id": "27fa0870",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
 }
